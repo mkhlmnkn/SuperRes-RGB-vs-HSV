@@ -1,11 +1,11 @@
 # Single Image Super-Resolution (RGB vs HSV)
 
 ## Related Works
-### SRResNet
+### [SRResNet](https://arxiv.org/abs/1609.04802)
 * first deep ResNet for SISR
 * post-upscaling > pre-upscaling
 
-### EDSR
+### [EDSR](https://arxiv.org/abs/1707.02921)
 * using ResBlocks && removing batch-normalization
 * increasing features > increasing depth
 * residual scaling (x0.1)
@@ -13,7 +13,7 @@
 * geometric self-ensemble
 * multi-scale model
 
-### WDSR
+### [WDSR](https://arxiv.org/abs/1808.08718)
 * "wide" activation (expand features before ReLU)
 * weight normalization instead BN
 * global residual pathway + upsampling layer
@@ -22,7 +22,7 @@
 SISR implementation using HSV image representation. [...]
 
 ## Getting Started
-* Dataset: [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
+* Training dataset: [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
 * Framework: [TensorFlow](https://www.tensorflow.org/)
 * Hardware: [Google Colab](https://colab.research.google.com)
 
