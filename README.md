@@ -6,3 +6,4 @@
 * increasing features > increasing depth
 * residual scaling (x0.1)
 * L1-loss (MAE) > L2-loss (MSE)
+* geometric self-ensemble
