@@ -1,4 +1,4 @@
-# SuperRes-RGB-vs-HSV-
+# SuperResolution (RGB vs HSV)
 
 ### EDSR inspiration
 * post-upscaling > pre-upscaling
