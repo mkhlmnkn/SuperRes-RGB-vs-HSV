@@ -36,3 +36,4 @@ SISR implementation using HSV image representation. [...]
 [...]
 
 ## Conclusion
+[...]
