@@ -34,10 +34,13 @@
 ![EDSR](https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/edsr%20arch%20.png)
 
 ## Benchmark Results
+### DIV2K 0809
 ![0809](https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0809.png)
+### DIV2K 0841
 ![0841](https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0841.png)
+### DIV2K 0853
 ![0853](https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0853.png)
 
 ## Conclusion
-It seems that RGB is better than HSV.
+It seems that RGB is better than HSV.\
 N.B. The lion is the best in any case.
