@@ -22,7 +22,8 @@
 * global residual pathway + upsampling layer
 
 ## Contribution
-SISR implementation using HSV image representation. [...]
+* SISR implementation training by HSV image representation
+* Comparison of RGB and HSV results
 
 ## Getting Started
 * Training dataset: [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
@@ -32,11 +33,11 @@ SISR implementation using HSV image representation. [...]
 ## Architecture
 ![EDSR](https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/edsr%20arch%20.png)
 
-## Experiments
-### Training Details
-[...]
-### Benchmark Results
-[...]
+## Benchmark Results
+![0809](https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0809.png)
+![0841](https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0841.png)
+![0853](https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0853.png)
 
 ## Conclusion
-[...]
+It seems that RGB is better than HSV.
+N.B. The lion is the best in any case.
