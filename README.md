@@ -30,7 +30,7 @@ SISR implementation using HSV image representation. [...]
 * Hardware: [Google Colab](https://colab.research.google.com)
 
 ## Architecture
-![EDSR](/images/for readme/edsr arch .png)
+![EDSR](https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/edsr%20arch%20.png)
 
 ## Experiments
 ### Training Details
