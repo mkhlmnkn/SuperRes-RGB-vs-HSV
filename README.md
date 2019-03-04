@@ -29,8 +29,8 @@ SISR implementation using HSV image representation. [...]
 * Framework: [TensorFlow](https://www.tensorflow.org/)
 * Hardware: [Google Colab](https://colab.research.google.com)
 
-## Used Methods and Architecture
-[...]
+## Architecture
+![EDSR](/images/for readme/edsr arch .png)
 
 ## Experiments
 ### Training Details
