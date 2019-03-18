@@ -30,17 +30,38 @@
 * Framework: [TensorFlow](https://www.tensorflow.org/)
 * Hardware: [Google Colab](https://colab.research.google.com)
 
-## Architecture
-![EDSR](https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/edsr%20arch%20.png)
+## Training
+### Architecture
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/edsr%20arch%20.png" alt="EDSR"/>
+</p>
+### Parameters
+* Kernel size: 5$\times$5
+* Number of feature maps (for res blocks): 32
+* Сoefficient of residual scaling: 0.1
+* Number of residual blocks: 16
+* Adam Optimizer
+* Learning rate: $10^{-5}$
+* L2 regularization сoefficient: $10^{-2}$
 
 ## Benchmark Results
+### Loss
+Counted the loss for any step such that step $\equiv$ 0 images (mod 25)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/loss.png" alt="Loss"/>
+</p>
 ### DIV2K 0809
-![0809](https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0809.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0809.png" alt="0809"/>
+</p>
 ### DIV2K 0841
-![0841](https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0841.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0841.png" alt="0841"/>
+</p>
 ### DIV2K 0853
-![0853](https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0853.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0853.png" alt="0853"/>
+</p>
 
 ## Conclusion
-It seems that RGB is better than HSV.\
-N.B. The lion is the best in any case.
+[Underfitting! Need more epoches.]\
