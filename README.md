@@ -37,13 +37,13 @@
 </p>
 
 ### Parameters
-* Kernel size: 5\times5
+* Kernel size: <!--5\times5-->
 * Number of feature maps (for res blocks): 32
 * Сoefficient of residual scaling: 0.1
 * Number of residual blocks: 16
 * Adam Optimizer
-* Learning rate: 10^{-5}
-* L2 regularization сoefficient: 10^{-2}
+* Learning rate: <!--10^{-5}-->
+* L2 regularization сoefficient: <!--10^{-2}-->
 
 ## Benchmark Results
 ### Loss
@@ -68,4 +68,4 @@ Counted the loss for any step such that step $\equiv$ 0 images (mod 25)
 </p>
 
 ## Conclusion
-[Underfitting! Need more epoches.]\
+Underfitting! Need more epoches.
