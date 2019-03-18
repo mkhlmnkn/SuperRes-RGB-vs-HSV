@@ -35,6 +35,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/edsr%20arch%20.png" alt="EDSR"/>
 </p>
+
 ### Parameters
 * Kernel size: 5$\times$5
 * Number of feature maps (for res blocks): 32
@@ -51,14 +52,17 @@ Counted the loss for any step such that step $\equiv$ 0 images (mod 25)
   <img src="https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/loss.png" alt="Loss"/>
 </p>
 ### DIV2K 0809
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0809.png" alt="0809"/>
 </p>
 ### DIV2K 0841
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0841.png" alt="0841"/>
 </p>
 ### DIV2K 0853
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0853.png" alt="0853"/>
 </p>
