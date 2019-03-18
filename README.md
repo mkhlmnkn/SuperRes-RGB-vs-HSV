@@ -37,17 +37,17 @@
 </p>
 
 ### Parameters
-* Kernel size: <!--5\times5-->
+* Kernel size: 5x5
 * Number of feature maps (for res blocks): 32
 * Сoefficient of residual scaling: 0.1
 * Number of residual blocks: 16
 * Adam Optimizer
-* Learning rate: <!--10^{-5}-->
-* L2 regularization сoefficient: <!--10^{-2}-->
+* Learning rate: 0.00001
+* L2 regularization сoefficient: 0.01
 
 ## Benchmark Results
 ### Loss
-Counted the loss for any step such that step $\equiv$ 0 images (mod 25)
+Counted the loss at every 25th image.
 <p align="center">
   <img src="https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/loss.png" alt="Loss"/>
 </p>
