@@ -1,8 +1,5 @@
 # Single Image Super-Resolution (RGB vs HSV)
 
-## Abstract
-*abstract text*
-
 ## Related Works
 ### [SRResNet](https://arxiv.org/abs/1609.04802)
 * first deep ResNet for SISR
@@ -68,4 +65,4 @@ Counted the loss at every 25th image.
 </p>
 
 ## Conclusion
-Underfitting! Need more epoches.
+Underfitting! Need more epochs.
