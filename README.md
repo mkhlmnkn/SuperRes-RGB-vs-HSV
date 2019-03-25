@@ -44,6 +44,9 @@
 * Minibatch size: 16
 
 ## Benchmark Results
+BICUB --- bicubic interpolation
+HR --- high resolution (original)
+HSV / RGB --- neural network results
 ### DIV2K 0809
 <p align="center">
   <img src="https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0809.png" alt="0809"/>
