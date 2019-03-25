@@ -1,5 +1,8 @@
 # Single Image Super-Resolution (RGB vs HSV)
 
+## Goal
+Need to know whether to use the RGB or HSV color model to SISR neural network training.
+
 ## Related Works
 ### [SRResNet](https://arxiv.org/abs/1609.04802)
 * first deep ResNet for SISR
@@ -35,20 +38,18 @@
 
 ### Parameters
 * Kernel size: 5x5
-* Number of feature maps (for res blocks): 32
+* Number of feature maps (for residual blocks): 64
 * Сoefficient of residual scaling: 0.1
-* Number of residual blocks: 16
+* Number of residual blocks: 5
 * Adam Optimizer
-* Learning rate: 0.00001
-* L2 regularization сoefficient: 0.01
+* Learning rate: 0.0005 (1-8 epochs), 0.00025 (9-12 epochs)
+* L2 regularization сoefficient: 0.01 (1-8 epochs), 0.0001 (9-12 epochs)
+* Minibatch size: 16
 
 ## Benchmark Results
-### Loss
-Counted the loss at every 25th image.
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/loss.png" alt="Loss"/>
-</p>
-
+BICUB — bicubic interpolation\
+HR — high resolution (original)\
+HSV / RGB — neural network results
 ### DIV2K 0809
 <p align="center">
   <img src="https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0809.png" alt="0809"/>
@@ -65,4 +66,4 @@ Counted the loss at every 25th image.
 </p>
 
 ## Conclusion
-Underfitting! Need more epochs.
+The RGB color model is better than the HSV color model for neural network training (at least for EDSR architecture).
