@@ -1,5 +1,8 @@
 # Single Image Super-Resolution (RGB vs HSV)
 
+## Goal
+Need to know whether to use the RGB or HSV color model to SISR neural network training.
+
 ## Related Works
 ### [SRResNet](https://arxiv.org/abs/1609.04802)
 * first deep ResNet for SISR
@@ -44,9 +47,9 @@
 * Minibatch size: 16
 
 ## Benchmark Results
-BICUB &mdash bicubic interpolation\
-HR &mdash high resolution (original)\
-HSV / RGB &mdash neural network results
+BICUB — bicubic interpolation\
+HR — high resolution (original)\
+HSV / RGB — neural network results
 ### DIV2K 0809
 <p align="center">
   <img src="https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/0809.png" alt="0809"/>
