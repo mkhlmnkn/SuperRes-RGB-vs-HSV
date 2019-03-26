@@ -1,5 +1,8 @@
 # Single Image Super-Resolution (RGB vs HSV)
 
+## Goal
+Need to know whether to use the RGB or HSV color model to SISR neural network training.
+
 ## Related Works
 ### [SRResNet](https://arxiv.org/abs/1609.04802)
 * first deep ResNet for SISR
