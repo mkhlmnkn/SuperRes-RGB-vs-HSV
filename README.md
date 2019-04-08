@@ -40,7 +40,7 @@ Need to know whether to use the RGB or HSV color model to SISR neural network tr
 * Kernel size: 5x5
 * Number of feature maps (for residual blocks): 64
 * Сoefficient of residual scaling: 0.1
-* Number of residual blocks: 5
+* Number of residual blocks: 1
 * Adam Optimizer
 * Learning rate: 5e-4
 * L2 regularization сoefficient: 1e-3
