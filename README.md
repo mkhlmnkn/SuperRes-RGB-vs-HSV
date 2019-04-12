@@ -1,4 +1,7 @@
 # Single Image Super-Resolution (RGB vs HSV)
+![Python 3.6.7](https://img.shields.io/badge/python-3.6.7-EEDD00.svg?style=plastic)
+![TensorFlow 1.13.1](https://img.shields.io/badge/tensorflow-1.13.1-FF9933.svg?style=plastic)
+![cuDNN 7.5.0](https://img.shields.io/badge/cudnn-7.5.0-80FF00.svg?style=plastic)
 
 ## Goal
 Need to know whether to use the RGB or HSV color model to SISR neural network training.
@@ -40,9 +43,9 @@ Need to know whether to use the RGB or HSV color model to SISR neural network tr
 * Kernel size: 5x5
 * Number of feature maps (for residual blocks): 64
 * Сoefficient of residual scaling: 0.1
-* Number of residual blocks: 1
+* Number of residual blocks: 5
 * Adam Optimizer
-* Learning rate: 5e-4
+* Initial learning rate: 5e-4
 * L2 regularization сoefficient: 1e-3
 * Minibatch size: 16
 * Patch size (low res): 48x48
@@ -51,7 +54,7 @@ Need to know whether to use the RGB or HSV color model to SISR neural network tr
 
 | Dataset | Bicubic | EDSR (RGB) | EDSR (HSV) |
 | - | - | - | - |
-| DIV2K (val) | 31.01 / 0.9393 | 31.92 / 0.9102 | 24.36 / 0.863 |
+| DIV2K (val) | 31.01 / 0.9393 | 31.92 / 0.9101 | 24.38 / 0.8617 |
 
 ### DIV2K 0809
 <p align="center">
