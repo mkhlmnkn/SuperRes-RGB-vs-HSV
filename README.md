@@ -36,7 +36,7 @@ Need to know whether to use the RGB or HSV color model to SISR neural network tr
 ## Training
 ### Architecture
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/edsr%20arch%20.png" alt="EDSR"/>
+  <img src="https://raw.githubusercontent.com/mkhlmnkn/SuperRes-RGB-vs-HSV/master/images/for%20readme/edsr%20architecture.png" alt="EDSR architecture"/>
 </p>
 
 ### Parameters
